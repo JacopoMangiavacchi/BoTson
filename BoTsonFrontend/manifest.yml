@@ -1,0 +1,9 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: jacopomangiavacchiukibmcom-jspace.apic.mybluemix.net
+  name: jSwiftBot
+  host: jswiftbot
+  disk_quota: 1024M
+  buildpack: swift_buildpack
