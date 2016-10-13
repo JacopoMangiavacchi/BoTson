@@ -11,16 +11,16 @@
  */
 public struct Configuration {
     // App Secret can be retrieved from the App Dashboard
-    static let appSecret = "4c36e757ed0976a2856564976aac973d"
+    static let appSecret = "xxx"
 
     // Arbitrary value used to validate a webhook
-    static let validationToken = "JacopoMangiavacchiToken"
+    static let validationToken = "xxx"
 
     // Generate a page access token for your page from the App Dashboard
-    static let pageAccessToken = "EAAIlxjmRZB7YBADlpLZCugk0wku7qprQK2oOEMSPnUZBQVXyt1VwW2o4BPciBTu6eE9jUOAei7ZAcnXIg7g0EiG88QtQEJWDfU4q1dRZAtVmKQSOyF63LZCk111ldKO7cfd6PP5AZBp4pFssPYz4QrrpfUGkG4es7w0zaDQZAJrRZAAZDZD"
+    static let pageAccessToken = "xxx"
 
     // Hosted BOT Server URL
-    static let botServerUrl = "http://localhost:8090" //"https://jswiftbot.mybluemix.net"
+    static let botServerUrl = "http://xxx"
 
     // Async push back path
     static let pushApiPath = "/botpushapi"
@@ -50,15 +50,15 @@ public struct Configuration {
     static let mobileApiPushBluemixRegion = "ng.bluemix.net"
     
     // Push Bluemix AppGuid
-    static let mobileApiPushBluemixAppGuid = "e34a187c-a0d2-47e4-b558-c7dc9b45dfbd"
+    static let mobileApiPushBluemixAppGuid = "xxx"
     
     // Push Bluemix AppSecret
-    static let mobileApiPushBluemixAppSecret = "a8a53050-dc7f-4024-9547-d4b791e3754f"
+    static let mobileApiPushBluemixAppSecret = "xxx"
 
     // OpenWhisk parameters
-    static let openWhiskBasicAuthorization = "Basic OTlhMDQzNWMtYmZlMS00YTI0LWFjYTMtZGQ1ZTRjOTM4OGJiOlhkMnJLYWpJbVA4SW9SelNIaDhUSkRqZjNEbndBZzk0SXJHWTV1aXRCT1ZpU2hvVDRBS3JGOEVHMjZmeXBDbWs="
+    static let openWhiskBasicAuthorization = "Basic xxx"
     static let openWhiskBaseURL = "https://openwhisk.ng.bluemix.net"
-    static let openWhiskNameSpace = "jacopo.mangiavacchi@uk.ibm.com_jSpace"
+    static let openWhiskNameSpace = "xxx"
     static let openWhiskTrigger = "ProcessNewMessageTrigger"
 }
 
