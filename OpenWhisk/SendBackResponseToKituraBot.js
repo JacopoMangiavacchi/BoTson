@@ -52,7 +52,7 @@ function main(params) {
                 reject(error);
             }
             else {
-                resolve({msg: "Message Sent"});
+                resolve(payload);
             }
 		});
     });
