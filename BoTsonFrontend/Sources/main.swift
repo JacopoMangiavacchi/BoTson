@@ -46,7 +46,7 @@ router.all("/", middleware: StaticFileServer())
 ///     "securityToken" : "xxx"
 ///     "context" : {}
 /// }
-func fireOpenWhiskTrigge(message: KituraBotMessage) {
+func fireOpenWhiskTrigger(message: KituraBotMessage) {
     
     var jsonPayload:[String : Any] = [
         "botUrl" : Configuration.botServerUrl + Configuration.pushApiPath,
@@ -88,10 +88,10 @@ let messageStore = KituraBotMessageStoreInMemory()
 let bot = KituraBot(router: router, messageStore: messageStore, getPath: Configuration.getMessageApiPath, getToken: Configuration.getMessageApiSecurityToken) { (message: KituraBotMessage) -> KituraBotMessageResponse? in
     
     //1.a Implement classic Syncronous BOT logic implementation with Watson Conversation, api.ai, wit.ai or other tools
-    let responseMessage = "..."
+    //let responseMessage = "..."
     
     //3.b Manage Asyncronous BOT logic implementation decoupling with OpenWhisk
-    fireOpenWhiskTrigge(message: message)
+    fireOpenWhiskTrigger(message: message)
 
     //1.b return immediate Syncronouse response or return nil to do not send back any Syncronous response message
     //return KituraBotMessageResponse(messageText: responseMessage, context: message.context)
