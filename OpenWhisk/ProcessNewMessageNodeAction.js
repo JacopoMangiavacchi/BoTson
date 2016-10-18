@@ -27,8 +27,8 @@ var watson = require('watson-developer-cloud');
  
 function main(params) {
 	var conversation = watson.conversation({
-	  username: '9a8a0b7f-aa6c-40d6-873c-6038849de0bd',
-	  password: 'HWWGrkQ57vn0',
+	  username: 'XXXXX',
+	  password: 'XXXXX',
 	  version: 'v1',
 	  version_date: '2016-08-18'
 	});
@@ -37,7 +37,7 @@ function main(params) {
 
     return new Promise(function(resolve, reject) {
 		conversation.message({
-		  workspace_id: '2e59098d-278f-48a1-8348-77df71afec89',
+		  workspace_id: 'xxxxx',
 		  input:  {'text': params.messageText},
 		  context: params.context
 		},  function(err, resp) {
