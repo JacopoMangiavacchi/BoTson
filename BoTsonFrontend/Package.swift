@@ -25,10 +25,9 @@ let package = Package(
         )
     ],
     dependencies: [
-        .Package(url: "https://github.com/IBM-Swift/Kitura.git", majorVersion: 1, minor: 0),
-        .Package(url: "https://github.com/IBM-Swift/HeliumLogger.git", majorVersion: 1, minor: 0),
-        .Package(url: "https://github.com/IBM-Swift/Swift-cfenv.git", majorVersion: 1, minor: 7),
-        .Package(url: "https://github.com/IBM-Bluemix/cf-deployment-tracker-client-swift.git", majorVersion: 0, minor: 4),
+        .Package(url: "https://github.com/IBM-Swift/Kitura.git", majorVersion: 1, minor: 1),
+        .Package(url: "https://github.com/IBM-Swift/HeliumLogger.git", majorVersion: 1, minor: 1),
+        .Package(url: "https://github.com/IBM-Swift/Swift-cfenv.git", majorVersion: 1),
         .Package(url: "https://github.com/JacopoMangiavacchi/KituraBot.git", majorVersion: 0),
         .Package(url: "https://github.com/JacopoMangiavacchi/KituraBotMessageStore.git", majorVersion: 0),
         .Package(url: "https://github.com/JacopoMangiavacchi/KituraBotFacebookMessenger.git", majorVersion: 0),
